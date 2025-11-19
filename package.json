@@ -1,0 +1,36 @@
+{
+  "name": "app-mensagens-cliq",
+  "version": "1.0.0",
+  "description": "Aplicação Node.js para enviar mensagens no Zoho Cliq via OAuth 2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "zoho",
+    "cliq",
+    "oauth",
+    "nodejs",
+    "express",
+    "api"
+  ],
+  "author": "Gabriel Souza <seuemail@exemplo.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/app-mensagens-cliq"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "express": "^5.1.0",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
